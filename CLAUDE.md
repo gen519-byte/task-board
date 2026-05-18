@@ -38,6 +38,29 @@
 - OS: macOS
 - Shell: zsh
 
+## 技術スタック
+
+| カテゴリ | 技術 |
+|---|---|
+| フレームワーク | React 18 |
+| ビルドツール | Vite 5 |
+| スタイリング | CSS Modules |
+| 状態管理 | React useState / useEffect |
+| 永続化 | localStorage |
+| CI/CD | GitHub Actions |
+| ホスティング | GitHub Pages |
+
+## コンポーネント命名規約
+
+- コンポーネントファイル・関数名は **PascalCase**（例: `App`, `TaskItem`）
+- CSS Modules ファイルは対応するコンポーネント名に `.module.css` を付与（例: `App.module.css`）
+- CSS クラス名は **camelCase**（例: `styles.inputRow`, `styles.deleteButton`）
+- イベントハンドラは `handle` プレフィックス（例: `handleKeyDown`）
+
 ## GitHub リポジトリ
 
 https://github.com/gen519-byte/task-board
+
+## デプロイ先
+
+https://gen519-byte.github.io/task-board/
